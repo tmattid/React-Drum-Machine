@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/my-app/static/css/main.649e28f1.css",
-    "main.js": "/my-app/static/js/main.9a9ed61c.js",
-    "static/js/787.28cb0dcd.chunk.js": "/my-app/static/js/787.28cb0dcd.chunk.js",
-    "static/media/background.jpg": "/my-app/static/media/background.b6c880a4adaf4eb971a0.jpg",
-    "static/media/ride.mp3": "/my-app/static/media/ride.51391d56f6f2448bb752.mp3",
-    "static/media/openhat.mp3": "/my-app/static/media/openhat.60c67c7a4831ea25c157.mp3",
-    "static/media/boom.mp3": "/my-app/static/media/boom.bde54b80f19f5b7266fb.mp3",
-    "static/media/tom.mp3": "/my-app/static/media/tom.e2e90e528f30cc52058c.mp3",
-    "static/media/clap.mp3": "/my-app/static/media/clap.a5dc4e627c73daa1b9e4.mp3",
-    "static/media/hihat.mp3": "/my-app/static/media/hihat.54bb7ac1a455ac860ef2.mp3",
-    "static/media/snare.mp3": "/my-app/static/media/snare.b55c10e8ced477ee5f29.mp3",
-    "static/media/kick.mp3": "/my-app/static/media/kick.0a89d2990dfaf6b5f034.mp3",
-    "static/media/tink.mp3": "/my-app/static/media/tink.8e31725b75246b7bb9e0.mp3",
-    "index.html": "/my-app/index.html",
-    "main.649e28f1.css.map": "/my-app/static/css/main.649e28f1.css.map",
-    "main.9a9ed61c.js.map": "/my-app/static/js/main.9a9ed61c.js.map",
-    "787.28cb0dcd.chunk.js.map": "/my-app/static/js/787.28cb0dcd.chunk.js.map"
+    "main.css": "/static/css/main.d48e1c84.css",
+    "main.js": "/static/js/main.92b69d18.js",
+    "static/js/787.8003a2df.chunk.js": "/static/js/787.8003a2df.chunk.js",
+    "static/media/background.jpg": "/static/media/background.b6c880a4adaf4eb971a0.jpg",
+    "static/media/ride.mp3": "/static/media/ride.51391d56f6f2448bb752.mp3",
+    "static/media/openhat.mp3": "/static/media/openhat.60c67c7a4831ea25c157.mp3",
+    "static/media/boom.mp3": "/static/media/boom.bde54b80f19f5b7266fb.mp3",
+    "static/media/tom.mp3": "/static/media/tom.e2e90e528f30cc52058c.mp3",
+    "static/media/clap.mp3": "/static/media/clap.a5dc4e627c73daa1b9e4.mp3",
+    "static/media/hihat.mp3": "/static/media/hihat.54bb7ac1a455ac860ef2.mp3",
+    "static/media/snare.mp3": "/static/media/snare.b55c10e8ced477ee5f29.mp3",
+    "static/media/kick.mp3": "/static/media/kick.0a89d2990dfaf6b5f034.mp3",
+    "static/media/tink.mp3": "/static/media/tink.8e31725b75246b7bb9e0.mp3",
+    "index.html": "/index.html",
+    "main.d48e1c84.css.map": "/static/css/main.d48e1c84.css.map",
+    "main.92b69d18.js.map": "/static/js/main.92b69d18.js.map",
+    "787.8003a2df.chunk.js.map": "/static/js/787.8003a2df.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.649e28f1.css",
-    "static/js/main.9a9ed61c.js"
+    "static/css/main.d48e1c84.css",
+    "static/js/main.92b69d18.js"
   ]
 }
