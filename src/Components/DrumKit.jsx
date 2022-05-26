@@ -1,5 +1,4 @@
-import React from 'react'
-
+import React, { useEffect } from 'react'
 import '../Design/style.css'
 import clap from '../assets/sounds/clap.mp3'
 import hihat from '../assets/sounds/hihat.mp3'
@@ -12,14 +11,9 @@ import tom from '../assets/sounds/tom.mp3'
 import tink from '../assets/sounds/tink.mp3'
 
 const DrumKit = () => {
-  function removeTransition(e) {
-    if (e.propertyName !== 'transform') return
-    e.target.classList.remove('playing')
-  }
-
   function playSound(e) {
     const audio = document.querySelector(`audio[data-key="${e.keyCode}"]`)
-    console.log(audio)
+
     const key = document.querySelector(`div[data-key="${e.keyCode}"]`)
     if (!audio) return
 
@@ -28,8 +22,17 @@ const DrumKit = () => {
     audio.play()
   }
 
-  const keys = Array.from(document.querySelectorAll('.key'))
-  keys.forEach((key) => key.addEventListener('transitionend', removeTransition))
+  useEffect(() => {
+    const keys = Array.from(document.querySelectorAll('.key'))
+
+    function removeTransition(e) {
+      if (e.propertyName !== 'transform') return
+      e.target.classList.remove('playing')
+    }
+    keys.forEach((key) =>
+      key.addEventListener('transitionend', removeTransition),
+    )
+  })
   window.addEventListener('keydown', playSound)
 
   return (
